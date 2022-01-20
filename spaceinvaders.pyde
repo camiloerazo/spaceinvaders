@@ -84,7 +84,6 @@ arreglo_disparos_enemigos = []
 def draw():
     global ultimo_cambio,direccion,cambios_de_direccion,variable_para_girar,ultimo_cambio_disparos_random
     global arreglo_disparos_enemigos, vidas, modo
-    print(modo)
     if modo == "vivo":
         background(0)
         texto = "Vidas " + str(vidas)
